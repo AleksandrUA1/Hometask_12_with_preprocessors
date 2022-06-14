@@ -1,5 +1,76 @@
 .header-style {
     border-bottom: 1px solid #f2f2f2;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 25px 25px;
+    max-width: 1440px;
     width: 100%;
-    height: 95px;
+    min-height: 95px; /**/
+}
+
+.header-logo {
+    margin: 0 25px;
+}
+
+.header-logo path:hover {
+    fill: #ff6336;
+}
+
+.header-logo:hover {
+    cursor: pointer; /*курсор добавив сюди, щоб він не смикався*/
+}
+
+.header-nav {
+    flex-grow: 1;
+    padding: 0 25px;
+}
+
+.header-list {
+    display: flex;
+}
+
+.header-item {
+    margin-right: 57px;
+}
+
+.header-item:last-child {
+    margin-right: 0;
+}
+
+.header-link {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.header-link:hover {
+    color: #ff6336;
+}
+
+.header-buttons {
+    margin: 0 25px;
+}
+
+.header-button-Log_in {
+    @extend %button-size;
+    @extend %button-color-white;
+}
+
+.header-button-Try_it {
+    @extend %button-size;
+    @extend %button-color-orange;
+}
+
+.header-button-fix {
+    line-height: 43px;
+    min-width: 120px; 
+    margin-right: 10px;
+}
+
+.header-button-fix:last-child {
+    margin-right: 0;
 }

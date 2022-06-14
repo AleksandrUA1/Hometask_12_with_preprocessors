@@ -1,45 +1,64 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     font-family: "Graphik LCG";
     color: #000; /*Ця властивість тут не лишня? Адже цей колір і так буде використаний браузером за замовченням. */
-    width: 400;
+    font-weight: 400;
     font-size: 20px;
     line-height: 30px;
 }
+
 a {
     text-decoration: none;
     color: #000;
 }
+
 %title-style {
     font-weight: 600;
     font-size: 50px;
     line-height: 60px;
     text-align: center;
 }
+
 %button-size {
+    display: inline-block;
+    vertical-align: top;
     min-width: 160px;
     padding: 0 20px;
     text-align: center;
     font-size: 16px;
-    line-height: 60px;
-    width: 600;
+    line-height: 58px;
+    font-weight: 600;
 }
+
 %button-color-orange {
     background-color: #FF6336;
     border: 1px solid #FF6336;
-}
-%button-color-white {
-    background-color: #fff;
-    border: 1px solid  rgba(0, 0, 0, 0.5);
     color: #fff;
 }
-.container-size {
+
+%button-color-orange:hover {
+    background-color: #ffffff;
+    border: 1px solid  #FF6336;
+    color: #FF6336;
+}
+
+%button-color-white {
+    background-color: #fff;
+    border: 1px solid  #9f9f9f;
+}
+
+%button-color-white:hover {
+    border: 1px solid  #FF6336;
+    color: #FF6336;
+}
+
+.container-box {
     display: block;
     margin: 0 auto;
     max-width: 1440px;
     width: 100%;
     padding: 0 75px;
-
 }
