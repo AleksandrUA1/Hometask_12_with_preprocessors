@@ -74,7 +74,7 @@ table {
 
 body {
   font-family: "Graphik LCG";
-  color: #000; /*Ця властивість тут не лишня? Адже цей колір і так буде використаний браузером за замовченням. */
+  color: #000;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
@@ -85,7 +85,15 @@ a {
   color: #000;
 }
 
-.header-button-Try_it, .header-button-Log_in {
+.content-box {
+  display: block;
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 75px;
+}
+
+.about-lokalise-button-book, .about-lokalise-button-try-it, .header-button-Try_it, .header-button-Log_in {
   display: inline-block;
   vertical-align: top;
   min-width: 160px;
@@ -94,36 +102,33 @@ a {
   font-size: 16px;
   line-height: 58px;
   font-weight: 600;
+  margin-right: 10px;
 }
 
-.header-button-Try_it {
+.about-lokalise-button-book:last-child, .about-lokalise-button-try-it:last-child, .header-button-Try_it:last-child, .header-button-Log_in:last-child {
+  margin-right: 0;
+}
+
+.about-lokalise-button-try-it, .header-button-Try_it {
   background-color: #FF6336;
   border: 1px solid #FF6336;
   color: #fff;
 }
 
-.header-button-Try_it:hover {
+.about-lokalise-button-try-it:hover, .header-button-Try_it:hover {
   background-color: #ffffff;
   border: 1px solid #FF6336;
   color: #FF6336;
 }
 
-.header-button-Log_in {
+.about-lokalise-button-book, .header-button-Log_in {
   background-color: #fff;
   border: 1px solid #9f9f9f;
 }
 
-.header-button-Log_in:hover {
+.about-lokalise-button-book:hover, .header-button-Log_in:hover {
   border: 1px solid #FF6336;
   color: #FF6336;
-}
-
-.container-box {
-  display: block;
-  margin: 0 auto;
-  max-width: 1440px;
-  width: 100%;
-  padding: 0 75px;
 }
 
 /*--------------- header ----------------*/
@@ -147,7 +152,7 @@ a {
 }
 
 .header-logo path:hover {
-  fill: #ff6336;
+  fill: #FF6336;
 }
 
 .header-logo:hover {
@@ -177,7 +182,7 @@ a {
 }
 
 .header-link:hover {
-  color: #ff6336;
+  color: #FF6336;
 }
 
 .header-buttons {
@@ -187,14 +192,51 @@ a {
 .header-button-fix {
   line-height: 43px;
   min-width: 120px;
-  margin-right: 10px;
-}
-
-.header-button-fix:last-child {
-  margin-right: 0;
 }
 
 /*-------------- main -----------------*/
+.about-lokalise-wrap {
+  padding: 129px 0 172px 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.about-lokalise-wrap::after {
+  content: "";
+  position: absolute;
+  background-image: url(../images/block1_about_Lokalise/where_to_apply_Lokalise.png);
+  background-repeat: no-repeat;
+  right: -8px;
+  top: 151px;
+  width: 759px;
+  height: 529px;
+}
+
+.about-lokalise-title {
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 70px;
+  max-width: 552px;
+  margin-bottom: 51px;
+}
+
+.about-lokalise-text {
+  width: 471px;
+  font-size: 25px;
+  line-height: 35px;
+  margin-bottom: 51px;
+}
+
+.about-lokalise-buttons {
+  margin-bottom: 25px;
+}
+
+.about-lokalise-footer {
+  font-size: 15px;
+  line-height: 25px;
+}
+
 /*--------------- footer ----------------*/
 
 /*# sourceMappingURL=style.css.map */

@@ -4,7 +4,7 @@
 
 body {
     font-family: "Graphik LCG";
-    color: #000; /*Ця властивість тут не лишня? Адже цей колір і так буде використаний браузером за замовченням. */
+    color: #000;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
@@ -13,6 +13,16 @@ body {
 a {
     text-decoration: none;
     color: #000;
+}
+
+$main-color: #FF6336;
+
+.content-box {
+    display: block;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 75px;
 }
 
 %title-style {
@@ -31,18 +41,23 @@ a {
     font-size: 16px;
     line-height: 58px;
     font-weight: 600;
+    margin-right: 10px;
+}
+
+%button-size:last-child {
+    margin-right: 0;
 }
 
 %button-color-orange {
-    background-color: #FF6336;
-    border: 1px solid #FF6336;
+    background-color: $main-color;
+    border: 1px solid $main-color;
     color: #fff;
 }
 
 %button-color-orange:hover {
     background-color: #ffffff;
-    border: 1px solid  #FF6336;
-    color: #FF6336;
+    border: 1px solid  $main-color;
+    color: $main-color;
 }
 
 %button-color-white {
@@ -51,14 +66,7 @@ a {
 }
 
 %button-color-white:hover {
-    border: 1px solid  #FF6336;
-    color: #FF6336;
+    border: 1px solid  $main-color;
+    color: $main-color;
 }
 
-.container-box {
-    display: block;
-    margin: 0 auto;
-    max-width: 1440px;
-    width: 100%;
-    padding: 0 75px;
-}

@@ -18,7 +18,7 @@
 }
 
 .header-logo path:hover {
-    fill: #ff6336;
+    fill: $main-color;
 }
 
 .header-logo:hover {
@@ -48,7 +48,7 @@
 }
 
 .header-link:hover {
-    color: #ff6336;
+    color: $main-color;
 }
 
 .header-buttons {
@@ -68,9 +68,4 @@
 .header-button-fix {
     line-height: 43px;
     min-width: 120px; 
-    margin-right: 10px;
-}
-
-.header-button-fix:last-child {
-    margin-right: 0;
 }
