@@ -50,3 +50,24 @@
     line-height: 25px;
 }
 
+.companies-choice {
+    background-color: #ff9c7d;
+    padding: 108px 0 104px; 
+}
+
+.choice-title {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    @extend %title-style;
+}
+
+.choice-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.choice-item {
+    max-height: 53px;
+}

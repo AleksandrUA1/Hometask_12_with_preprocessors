@@ -93,6 +93,13 @@ a {
   padding: 0 75px;
 }
 
+.choice-title {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+}
+
 .about-lokalise-button-book, .about-lokalise-button-try-it, .header-button-Try_it, .header-button-Log_in {
   display: inline-block;
   vertical-align: top;
@@ -144,7 +151,7 @@ a {
   padding: 25px 25px;
   max-width: 1440px;
   width: 100%;
-  min-height: 95px; /**/
+  min-height: 95px;
 }
 
 .header-logo {
@@ -235,6 +242,27 @@ a {
 .about-lokalise-footer {
   font-size: 15px;
   line-height: 25px;
+}
+
+.companies-choice {
+  background-color: #ff9c7d;
+  padding: 108px 0 104px;
+}
+
+.choice-title {
+  max-width: 720px;
+  margin: 0 auto;
+  padding-bottom: 70px;
+}
+
+.choice-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.choice-item {
+  max-height: 53px;
 }
 
 /*--------------- footer ----------------*/
