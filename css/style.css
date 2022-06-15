@@ -454,6 +454,66 @@ a {
   height: 310px;
 }
 
+.translation {
+  background-color: #DABC98;
+  padding: 80px 75px 84px;
+}
+
+.translation-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.translation-wrap-title {
+  margin: 0 124px 0 222px;
+  width: 461px;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 50px;
+  position: relative;
+}
+
+.translation-wrap-title::after {
+  content: "";
+  position: absolute;
+  background-image: url(../images/block7_translation_software/The_most-loved_translation_management_software.png);
+  background-repeat: no-repeat;
+  width: 176px;
+  height: 154px;
+  left: -243px;
+  top: -40px;
+}
+
+.translation-wrap-rating-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 480px;
+  min-height: 168px;
+  border-left: 1px solid #000;
+}
+
+.translation-wrap-rating-subtitle {
+  padding-top: 60px;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.75px;
+  position: relative;
+}
+
+.translation-wrap-rating-subtitle::after {
+  content: "";
+  position: absolute;
+  background-image: url(../images/block7_translation_software/five_stars.png);
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 20px;
+  top: 18px;
+  left: 0;
+}
+
+/*------------------------------------------------------------------*/
 /*--------------- footer ----------------*/
 
 /*# sourceMappingURL=style.css.map */
