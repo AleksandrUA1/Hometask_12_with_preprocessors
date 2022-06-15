@@ -93,7 +93,7 @@ a {
   padding: 0 75px;
 }
 
-.aplication-title, .advantages-card-content-title, .choice-title {
+.boost-title, .aplication-title, .advantages-card-content-title, .choice-title {
   font-weight: 600;
   font-size: 50px;
   line-height: 60px;
@@ -341,7 +341,6 @@ a {
 .aplication-card-wrap-img {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-bottom: 23px;
 }
 
@@ -362,6 +361,53 @@ a {
   font-size: 18px;
   line-height: 25px;
   text-align: center;
+}
+
+/*----------------------------------------------------------------*/
+.boost-box-fix {
+  padding: 154px 75px 187px;
+}
+
+.boost-title {
+  margin-bottom: 25px;
+}
+
+.boost-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /*на випадок, якщо карток стане більше*/
+}
+
+.boost-card {
+  width: 409px;
+}
+
+.boost-card-img {
+  height: 250px;
+  width: 250px;
+  margin: 25px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.boost-card-title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 34px;
+}
+
+.boost-card-link {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: underline;
+  margin-top: 25px;
+}
+
+.boost-card-link:hover {
+  text-decoration: none;
+  color: #FF6336;
 }
 
 /*--------------- footer ----------------*/
