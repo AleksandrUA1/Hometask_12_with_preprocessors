@@ -71,3 +71,55 @@
 .choice-item {
     max-height: 53px;
 }
+
+.advantages-list {
+    padding: 90px 0 150px;
+}
+
+.advantages-card {
+    padding: 125px 0;
+}
+
+.advantages-card:first-child {
+    padding: 0 0 125px 0;
+}
+
+.advantages-card:last-child {
+    padding: 125px 0 0 0;
+}
+
+.advantages-card-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advantages-card:nth-child(even) .advantages-card-wrap {
+    flex-direction: row-reverse;
+}
+
+.advanteges-card-content {
+    width: 520px;
+}
+
+.advantages-card-content-title {
+    @extend %title-style;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.advantages-card-content-link {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.advantages-card-content-link:hover {
+    color: $main-color;
+}
+
+.advantages-card-img {
+    width: 632px;
+    height: 632px;
+}
