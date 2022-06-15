@@ -100,7 +100,7 @@ a {
   text-align: center;
 }
 
-.supporting-link, .about-lokalise-button-book, .about-lokalise-button-try-it, .header-button-Try_it, .header-button-Log_in {
+.localization-link, .supporting-link, .about-lokalise-button-book, .about-lokalise-button-try-it, .header-button-Try_it, .header-button-Log_in {
   display: inline-block;
   vertical-align: top;
   min-width: 160px;
@@ -112,7 +112,7 @@ a {
   margin-right: 10px;
 }
 
-.supporting-link:last-child, .about-lokalise-button-book:last-child, .about-lokalise-button-try-it:last-child, .header-button-Try_it:last-child, .header-button-Log_in:last-child {
+.localization-link:last-child, .supporting-link:last-child, .about-lokalise-button-book:last-child, .about-lokalise-button-try-it:last-child, .header-button-Try_it:last-child, .header-button-Log_in:last-child {
   margin-right: 0;
 }
 
@@ -544,6 +544,45 @@ a {
 }
 
 /*---------------------------------------------------------------------*/
+.localization {
+  background-color: #FF9C7D;
+  padding: 119px 75px 161px;
+}
+
+.localization-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.localization-title {
+  width: 784px;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 75px;
+  text-align: center;
+  margin-bottom: 29px;
+}
+
+.localization-text {
+  width: 784px;
+  text-align: center;
+  margin-bottom: 54px;
+}
+
+.localization-link {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+}
+
+.localization-link:hover {
+  background-color: #ffffff;
+  border: 1px solid #FF6336;
+  color: #FF6336;
+}
+
+/*-------------------------------------------------------------------------*/
 /*--------------- footer ----------------*/
 
 /*# sourceMappingURL=style.css.map */
