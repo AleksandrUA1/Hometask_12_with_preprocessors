@@ -93,7 +93,7 @@ a {
   padding: 0 75px;
 }
 
-.advantages-card-content-title, .choice-title {
+.aplication-title, .advantages-card-content-title, .choice-title {
   font-weight: 600;
   font-size: 50px;
   line-height: 60px;
@@ -244,6 +244,7 @@ a {
   line-height: 25px;
 }
 
+/*--------------------------------------------------------------------------------------*/
 .companies-choice {
   background-color: #ff9c7d;
   padding: 108px 0 104px;
@@ -265,6 +266,7 @@ a {
   max-height: 53px;
 }
 
+/*----------------------------------------------------------------------------------------*/
 .advantages-list {
   padding: 90px 0 150px;
 }
@@ -314,6 +316,52 @@ a {
 .advantages-card-img {
   width: 632px;
   height: 632px;
+}
+
+.application {
+  background-color: #fff8e4;
+  padding: 120px 0 147px;
+}
+
+.aplication-title {
+  margin-bottom: 4px;
+}
+
+.aplication-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.aplication-card-wrap {
+  width: 330px;
+  margin-top: 75px;
+}
+
+.aplication-card-wrap-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 23px;
+}
+
+.aplication-card-wrap-img-icon {
+  width: 160px;
+  height: 120px;
+}
+
+.aplication-card-wrap-title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  margin-bottom: 23px;
+}
+
+.aplication-card-wrap-text {
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
 }
 
 /*--------------- footer ----------------*/
