@@ -78,6 +78,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
+  min-width: 360px;
 }
 
 a {
@@ -703,6 +704,91 @@ a {
 .footer-copyright-reserv {
   font-size: 12px;
   line-height: 15px;
+}
+
+@media (max-width: 1439px) {
+  .header-logo {
+    margin-left: 0;
+  }
+  .header-item {
+    margin-right: 27px;
+  }
+  .header-buttons {
+    margin-right: 0;
+  }
+  .about-lokalise-wrap {
+    padding: 70px 0 40px 0;
+  }
+  .about-lokalise-wrap::after {
+    content: "";
+    position: absolute;
+    background-size: contain;
+    width: 450px;
+    right: 0;
+    top: 151px;
+    left: 440px;
+  }
+  .about-lokalise-title {
+    font-size: 57px;
+    line-height: 60px;
+    max-width: 475px;
+  }
+  .about-lokalise-text {
+    max-width: 430px;
+  }
+}
+@media (max-width: 1024px) {
+  .header-box {
+    display: block;
+  }
+  .header-logo {
+    margin-left: 25px;
+  }
+  .header-buttons {
+    margin-top: 15px;
+  }
+  .about-lokalise-title {
+    margin-bottom: 370px;
+  }
+  .about-lokalise-wrap::after {
+    content: "";
+    position: absolute;
+    background-size: contain;
+    width: 450px;
+    right: 0;
+    top: 280px;
+    left: -5px;
+  }
+}
+@media (max-width: 768px) {
+  .content-box {
+    padding: 0 25px;
+  }
+  .header-list {
+    display: inline;
+  }
+  .about-lokalise-title {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .about-lokalise-text {
+    max-width: 260px;
+  }
+  .about-lokalise-title {
+    margin-bottom: 250px;
+  }
+  .about-lokalise-wrap::after {
+    content: "";
+    top: 300px;
+    width: 310px;
+    right: 0;
+  }
+  .about-lokalise-button-try-it {
+    min-width: 150px;
+  }
+  .about-lokalise-button-book {
+    min-width: 150px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

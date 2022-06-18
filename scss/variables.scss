@@ -8,6 +8,7 @@ body {
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
+    min-width: 360px;
 }
 
 a {
@@ -69,4 +70,3 @@ $main-color: #FF6336;
     border: 1px solid  $main-color;
     color: $main-color;
 }
-
