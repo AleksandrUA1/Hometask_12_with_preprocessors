@@ -43,7 +43,7 @@
     line-height: 25px;
     text-align: center;
 }
-/*----------------------------------------------------------------*/
+
 .boost-box-fix {
     padding: 154px 75px 187px;
 }
@@ -56,7 +56,7 @@
 .boost-list {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; /*на випадок, якщо карток стане більше*/
+    flex-wrap: wrap;
 }
 
 .boost-card {
@@ -90,11 +90,10 @@
     text-decoration: none;
     color: $main-color;
 }
-/*--------------------------------------*/
+
 .chief {
     background-color: #C9E8F2;
     padding: 53px 0 105px;
-
 }
 
 .chief-wrap {

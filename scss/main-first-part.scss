@@ -1,12 +1,8 @@
 .about-lokalise-wrap {
     padding: 129px 0 172px 0;
     display: flex;
-    align-items: center;
-}
-
-.about-lokalise-img {
-    width: 55%;
-    margin-left: 15px;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .about-lokalise-title {
@@ -22,6 +18,22 @@
     font-size: 25px;
     line-height: 35px;
     margin-bottom: 51px;
+    position: relative;
+}
+
+.about-lokalise-text::after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    vertical-align: top;
+    background-image: url(../images/block1_about_Lokalise/where_to_apply_Lokalise.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 759px;
+    height: 529px;
+    right: -840px;
+    top: -245px;
+
 }
 
 .about-lokalise-buttons {
@@ -42,7 +54,7 @@
     font-size: 15px;
     line-height: 25px;
 }
-/*--------------------------------------------------------------------------------------*/
+
 .companies-choice {
     background-color: #ff9c7d;
     padding: 108px 0 104px; 
@@ -64,7 +76,7 @@
 .choice-item {
     max-height: 53px;
 }
-/*----------------------------------------------------------------------------------------*/
+
 .advantages-list {
     padding: 90px 0 150px;
 }

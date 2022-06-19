@@ -51,7 +51,7 @@
 .footer-sidebar-link:hover {
     color: $main-color;
 }
-/*------------------------------------------------------------*/
+
 .footer-list {
     display: flex;
 }
@@ -80,15 +80,11 @@
 .footer-sublink:hover {
     color: $main-color;
 }
-/*------------------------------------------------------------*/
+
 .footer-copyright {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.footer-copyright-left {
-
 }
 
 .footer-copyright-logo {

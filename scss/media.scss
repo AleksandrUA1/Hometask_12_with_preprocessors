@@ -10,7 +10,24 @@
     .header-buttons {
         margin-right: 0;
     }
-    /*-----------*/
+
+    .about-lokalise-text {
+        max-width: 759px;
+    }
+
+    .about-lokalise-text::after {
+        display: none;
+    }
+
+    .about-lokalise-text::after {
+        position: relative;
+        display: block;
+        background-size: contain;
+        width: 100%;
+        right: 0px;
+        top: 0px;
+        margin: 20px 0;
+    }
 
     .choice-item {
         margin-right: 40px;
@@ -19,7 +36,6 @@
     .choice-item:last-child {
         margin-right: 0;
     }
-    /*------------------*/
 
     .advantages-card {
         padding: 50px 0;
@@ -42,16 +58,12 @@
         width: 49%;
     }
 
-    /*-----------------------*/
-
     .chief-wrap-img {
         margin-left: 20px;
     }
-    /*----------------------------*/
 
     .translation-wrap {
         flex-direction: column;
-
     }
 
     .translation-wrap-rating-container {
@@ -64,7 +76,6 @@
     .translation-wrap-rating-box {
         margin-right: 130px;
     }
-    /*-------------------------*/
 
     .footer-container {
         display: flex;
@@ -78,8 +89,6 @@
         margin-bottom: 40px;
     }
 }
-/*----------------------------------------------------------------------------*/
-/*---------------------------@media (max-width: 1024px)-----------------------*/
 @media (max-width: 1024px) {
     .header-box {
         display: block;
@@ -92,19 +101,6 @@
     .header-buttons {
         margin-top: 15px;
     }
-    /*------------*/
-    
-    .about-lokalise-wrap {
-        padding: 70px 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .about-lokalise-footer {
-        padding-bottom: 60px;
-    }
-    /*----------------*/
 
     .choice-title {
         font-size: 40px;
@@ -119,8 +115,7 @@
     .choice-item-img {
         max-width: 90%;
     }
-    /*---------------------*/
-     
+    
     .boost-item {
         width: 100%;
     }
@@ -140,7 +135,6 @@
     .boost-card-link {
         margin-top: 15px;
     }
-    /*---------------------------*/
 
     .translation-wrap-title {
         margin: 0;
@@ -148,7 +142,6 @@
     }
 
     .translation-wrap-title::after {
-        content: "";
         position: relative;
         display: none;
     }
@@ -157,7 +150,6 @@
         content: "";
         position: relative;
         display: block;
-        vertical-align: top;
         background-image: url(../images/block7_translation_software/The_most-loved_translation_management_software.png);
         background-repeat: no-repeat;
         width: 176px;
@@ -168,7 +160,6 @@
     .translation-wrap-rating-container {
         margin-left: 0;
     }
-    /*----------------------------------*/
 
     .footer-list {
         flex-wrap: wrap;
@@ -183,8 +174,6 @@
         margin-top: 8px;
     }
 
-/*----------------------------------------------------------------------------*/
-/*------------------------@media (max-width: 768px)---------------------------*/    
 }
 @media (max-width: 768px) {
     
@@ -200,30 +189,29 @@
     .header-link {
         font-size: 20px;
     }
-    /*------------------*/
 
-    .about-lokalise-img {
-        width: 80%;
+    .about-lokalise-wrap {
+        padding-top: 90px;
+        padding-bottom: 90px;
     }
 
     .about-lokalise-title {
         font-size: 45px;
         line-height: 55px;
-        margin-bottom: 25px;
     }
-    
+
+    .about-lokalise-text::after {
+        content: '';
+        width: 310px;
+        height: 216px;
+    }
+
     .about-lokalise-button-try-it, .about-lokalise-button-book {
         min-width: 150px;
     }
 
-    .about-lokalise-footer {
-        font-size: 18px;
-    }
-    /*------------------------*/
-
     .choice-list {
-        flex-direction: column;
-  
+        flex-direction: column; 
     }
 
     .companies-choice {
@@ -232,9 +220,7 @@
 
     .choice-item {
         margin: 0 0 40px;
-
     }
-    /*-----------------------------*/
 
     .advantages-card-wrap {
         flex-direction: column;
@@ -266,19 +252,14 @@
         padding-bottom: 90px;
     }
 
-    /*------------------------*/
-
     .application {
         padding: 90px 0;
     }
-
-    /*-------------------------*/
 
     .boost-box-fix {
         padding-top: 90px;
         padding-bottom: 90px;
     }
-    /*-----------------------*/
 
     .chief {
         padding: 90px 0;
@@ -291,7 +272,6 @@
     .chief-wrap-img {
         margin: 20px;
     }
-    /*-----------------------*/
 
     .translation-wrap-rating-container {
         flex-direction: column;
@@ -302,25 +282,6 @@
         margin: 40px 0 0 0;
     }
 
-    .translation-wrap-title::after {
-        content: "";
-        position: relative;
-        display: none;
-    }
-
-    .translation-wrap-title::before {
-        content: "";
-        position: relative;
-        display: block;
-        vertical-align: top;
-        background-image: url(../images/block7_translation_software/The_most-loved_translation_management_software.png);
-        background-repeat: no-repeat;
-        width: 176px;
-        height: 154px;
-        margin: 0 auto 40px;
-    }
-    /*------------------------*/
-
     .supporting {
         padding: 90px 0;
     }
@@ -329,7 +290,6 @@
         font-size: 45px;
         line-height: 55px;
     }
-    /*------------------------*/
 
     .localization {
         padding: 90px 0;
@@ -338,7 +298,6 @@
         font-size: 45px;
         line-height: 55px;
     }
-    /*---------------------------*/
 
     .footer-container {
         padding: 0;

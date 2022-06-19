@@ -46,10 +46,6 @@
     margin-right: 0;
 }
 
-.translation-wrap-rating-icon {
-
-}
-
 .translation-wrap-rating-subtitle {
     padding-top: 60px;
     font-size: 15px;
@@ -68,7 +64,7 @@
     top: 18px;
     left: 0;
 }
-/*------------------------------------------------------------------*/
+
 .supporting {
     padding: 165px 0 162px;
     display: flex;
@@ -103,7 +99,6 @@
     @extend %button-color-orange;
 }
 
-/*---------------------------------------------------------------------*/
 .localization {
     background-color: #FF9C7D;
     padding: 119px 75px 161px;
@@ -142,4 +137,3 @@
     border: 1px solid  $main-color;
     color: $main-color;
 }
-/*-------------------------------------------------------------------------*/
