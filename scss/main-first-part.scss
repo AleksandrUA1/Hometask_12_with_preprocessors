@@ -1,19 +1,12 @@
 .about-lokalise-wrap {
     padding: 129px 0 172px 0;
     display: flex;
-    flex-direction: column;
-    position: relative;
+    align-items: center;
 }
 
-.about-lokalise-wrap::after {
-    content: '';
-    position: absolute;
-    background-image: url(../images/block1_about_Lokalise/where_to_apply_Lokalise.png);
-    background-repeat: no-repeat;
-    right: -8px;
-    top: 151px;
-    width: 759px;
-    height: 529px;
+.about-lokalise-img {
+    width: 55%;
+    margin-left: 15px;
 }
 
 .about-lokalise-title {
@@ -25,7 +18,7 @@
 }
 
 .about-lokalise-text {
-    width: 471px;
+    max-width: 471px;
     font-size: 25px;
     line-height: 35px;
     margin-bottom: 51px;
