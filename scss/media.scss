@@ -86,14 +86,36 @@
         max-width: 90%;
     }
     /*---------------------*/
-    
+     
+    .boost-item {
+        width: 100%;
+    }
+
+    .boost-card {
+        margin: 0 auto;
+    }
+
+    .boost-card-img {
+        margin: 45px 0 0;
+    }
+
+    .boost-card-title {
+        margin-bottom: 10px;
+    }
+
+    .boost-card-link {
+        margin-top: 15px;
+    }
+    /*---------------------------*/
+
 /*----------------------------------------------------------------------------*/
 /*------------------------@media (max-width: 768px)---------------------------*/    
 }
 @media (max-width: 768px) {
     
     .content-box {
-        padding: 0 25px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
     
     .header-list {
@@ -163,5 +185,22 @@
     .advantages-card-content-title {
         font-size: 45px;
         line-height: 55px;
+    }
+
+    .advantages-list {
+        padding-bottom: 90px;
+    }
+
+    /*------------------------*/
+
+    .application {
+        padding: 90px 0;
+    }
+
+    /*-------------------------*/
+
+    .boost-box-fix {
+        padding-top: 90px;
+        padding-bottom: 90px;
     }
 }
