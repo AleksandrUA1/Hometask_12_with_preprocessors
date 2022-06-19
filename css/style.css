@@ -709,7 +709,34 @@ a {
   .header-buttons {
     margin-right: 0;
   }
+  /*-----------*/
+  .choice-item {
+    margin-right: 40px;
+  }
+  .choice-item:last-child {
+    margin-right: 0;
+  }
+  /*------------------*/
+  .advantages-card {
+    padding: 50px 0;
+  }
+  .advantages-card:first-child {
+    padding: 0 0 25px 0;
+  }
+  .advantages-card:last-child {
+    padding: 25px 0 0 0;
+  }
+  .advantages-card-img {
+    width: 49%;
+    height: auto;
+  }
+  .advanteges-card-content {
+    width: 49%;
+  }
+  /*-----------------------*/
 }
+/*----------------------------------------------------------------------------*/
+/*---------------------------@media (max-width: 1024px)-----------------------*/
 @media (max-width: 1024px) {
   .header-box {
     display: block;
@@ -720,8 +747,9 @@ a {
   .header-buttons {
     margin-top: 15px;
   }
+  /*------------*/
   .about-lokalise-wrap {
-    padding: 79px 0 70px 0;
+    padding: 70px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -729,6 +757,21 @@ a {
   .about-lokalise-footer {
     padding-bottom: 60px;
   }
+  /*----------------*/
+  .choice-title {
+    font-size: 40px;
+    line-height: 50px;
+    max-width: 580px;
+  }
+  .choice-item {
+    margin-right: 50px;
+  }
+  .choice-item-img {
+    max-width: 90%;
+  }
+  /*---------------------*/
+  /*----------------------------------------------------------------------------*/
+  /*------------------------@media (max-width: 768px)---------------------------*/
 }
 @media (max-width: 768px) {
   .content-box {
@@ -740,6 +783,7 @@ a {
   .header-link {
     font-size: 20px;
   }
+  /*------------------*/
   .about-lokalise-img {
     width: 80%;
   }
@@ -753,6 +797,37 @@ a {
   }
   .about-lokalise-footer {
     font-size: 18px;
+  }
+  /*------------------------*/
+  .choice-list {
+    flex-direction: column;
+  }
+  .companies-choice {
+    padding: 70px 0;
+  }
+  .choice-item {
+    margin: 0 0 40px;
+  }
+  /*-----------------------------*/
+  .advantages-card-wrap {
+    flex-direction: column;
+  }
+  .advantages-card:nth-child(even) .advantages-card-wrap {
+    flex-direction: column;
+  }
+  .advantages-card-img {
+    width: 100%;
+    height: auto;
+  }
+  .advanteges-card-content {
+    width: 100%;
+  }
+  .advantages-card-content-link {
+    margin-bottom: 30px;
+  }
+  .advantages-card-content-title {
+    font-size: 45px;
+    line-height: 55px;
   }
 }
 
