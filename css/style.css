@@ -820,17 +820,25 @@ a {
     margin-top: 15px;
   }
   /*---------------------------*/
-  .translation {
-    padding-top: 200px;
-  }
   .translation-wrap-title {
     margin: 0;
     text-align: center;
   }
   .translation-wrap-title::after {
     content: "";
-    left: 144px;
-    top: -175px;
+    position: relative;
+    display: none;
+  }
+  .translation-wrap-title::before {
+    content: "";
+    position: relative;
+    display: block;
+    vertical-align: top;
+    background-image: url(../images/block7_translation_software/The_most-loved_translation_management_software.png);
+    background-repeat: no-repeat;
+    width: 176px;
+    height: 154px;
+    margin: 0 auto 40px;
   }
   .translation-wrap-rating-container {
     margin-left: 0;
@@ -930,12 +938,6 @@ a {
     margin: 20px;
   }
   /*-----------------------*/
-  .translation {
-    padding-top: 265px;
-  }
-  .translation-wrap-title {
-    width: 310px;
-  }
   .translation-wrap-rating-container {
     flex-direction: column;
     align-items: flex-start;
@@ -945,8 +947,19 @@ a {
   }
   .translation-wrap-title::after {
     content: "";
-    left: 72px;
-    top: -175px;
+    position: relative;
+    display: none;
+  }
+  .translation-wrap-title::before {
+    content: "";
+    position: relative;
+    display: block;
+    vertical-align: top;
+    background-image: url(../images/block7_translation_software/The_most-loved_translation_management_software.png);
+    background-repeat: no-repeat;
+    width: 176px;
+    height: 154px;
+    margin: 0 auto 40px;
   }
   /*------------------------*/
   .supporting {
