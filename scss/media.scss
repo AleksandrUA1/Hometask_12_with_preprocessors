@@ -64,6 +64,19 @@
     .translation-wrap-rating-box {
         margin-right: 130px;
     }
+    /*-------------------------*/
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border-bottom: 1px solid #000;
+        padding-bottom: 60px;
+    }
+
+    .footer-container-sidebar {
+        margin-bottom: 40px;
+    }
 }
 /*----------------------------------------------------------------------------*/
 /*---------------------------@media (max-width: 1024px)-----------------------*/
@@ -146,6 +159,20 @@
 
     .translation-wrap-rating-container {
         margin-left: 0;
+    }
+    /*----------------------------------*/
+
+    .footer-list {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer-item {
+        margin: 0 0 40px 0;
+    }
+
+    .footer-sublist {
+        margin-top: 8px;
     }
 
 /*----------------------------------------------------------------------------*/
@@ -245,6 +272,9 @@
     }
     /*-----------------------*/
 
+    .chief {
+        padding: 90px 0;
+    }
     .chief-wrap {
         flex-direction: column;
         align-items: center;
@@ -254,6 +284,10 @@
         margin: 20px;
     }
     /*-----------------------*/
+
+    .translation {
+        padding-top: 265px;
+    }
 
     .translation-wrap-title {
         width: 310px;
@@ -273,6 +307,43 @@
         left: 72px;
         top: -175px;
     }
+    /*------------------------*/
 
-    
+    .supporting {
+        padding: 90px 0;
+    }
+ 
+    .supporting-title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    /*------------------------*/
+
+    .localization {
+        padding: 90px 0;
+    }
+    .localization-title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    /*---------------------------*/
+
+    .footer-container {
+        padding: 0;
+    }
+
+    .footer-copyright {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .footer-copyright-left {
+        margin-top: 30px;
+    }
+
+    .footer-copyright-right {
+        margin: 30px 0 50px
+    }
+ 
 }
