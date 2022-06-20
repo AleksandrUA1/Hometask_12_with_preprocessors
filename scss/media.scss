@@ -16,17 +16,15 @@
     }
 
     .about-lokalise-text::after {
-        display: none;
-    }
-
-    .about-lokalise-text::after {
         position: relative;
         display: block;
         background-size: contain;
         width: 100%;
+        height: 0;
+        padding-bottom: 60%; /*почув про цей хак на наступному уроці про БЕМ. Прикольно. Пів дня потратив, але так і не зміг нормально заадаптиви цю картинку. А виявилось що треба було висоту блока задати падінгом*/
         right: 0px;
         top: 0px;
-        margin: 20px 0;
+        margin: 20px 0 0;
     }
 
     .choice-item {
@@ -198,12 +196,6 @@
     .about-lokalise-title {
         font-size: 45px;
         line-height: 55px;
-    }
-
-    .about-lokalise-text::after {
-        content: '';
-        width: 310px;
-        height: 216px;
     }
 
     .about-lokalise-button-try-it, .about-lokalise-button-book {
